@@ -1,0 +1,166 @@
+TODO:
+*  Allgemeines zu Facebook (durchschnittliche Anzahl von Freunden, Verbrachte Zeit, Leistung besser einschätzen als mit psychologischen Standardtest)
+* Locked in/Internet im Internet
+* "(Gruppen)zwang" Facebook http://www.golem.de/news/kinderbilder-grundschule-bereut-facebook-aktion-1206-92673.html
+* Nicht auf alles klicken^^
+* privater Modus in FF und Chrome (nicht sicherer, trotzdem sinnvoll^^)
+* ICQ AGB (eure Posts gehören uns, wir können damit machen was wir wollen)
+
+Wer sind wir?
+* Die Hacker ;)
+    * Hackerethik
+    * weisse Hüte -> wir sind die "Guten" :-)
+* CCC
+    * Schäuble Fingerabdruck
+    * Bundestrojaner
+* <<</>>
+    * Datenspuren
+    * Podcasts
+* CMS
+
+Grundlagen des Internets
+* Erklärung:
+    * Struktur: an die Tafel malen
+        * Dezentralität
+        * Routing: mit Tabellen -> nach "Kindernet -> routing"? Dann haben die kinder u.U. das Problem erkannt: Wir müssen uns merken wen wir kennen etc
+* Kindernet
+    * Routing
+    * Beispiele: Emails, Websites, etc. -> Ausdrucken
+    * DNS: an der Tafel
+* Vorteile Internet
+    * Dezentralität
+    * Sender & Empfänger
+* Wireshark
+    * Website aufsuchen
+    * Email versenden -> ausprobieren
+    * Was brauchen wir: Verbindung von unseren beiden Rechnern, am besten per Hub? + Internet!
+* Verschlüsselung
+    * SSL/TLS
+    * PGP
+
+Personalisiertes Web:
+* Einleitung:
+    * Wer sind die bösen Leute? -> Übersicht über Tracking-Sites; Plugin "collusion"
+        * Ivwbox recherchieren, erklären
+        * Sinnvolle Websites: ARD, ZDF, Zeit, Mitfahrgelegenheit, Web.de, Schuelercc
+* Wie sammeln böse Leute Daten über dich?
+    * Referrer: Verlinktes Web: Klick auf Link -> Referrer wird vom Browser mitgesendet
+    * Cookies:
+        * Zeigen im Browser -> Welche Website?
+    * Zählpixel
+    * Like-Buttons, Facebook Login, Apps & Spiele
+         * Zentralitätskritik
+* Gegenmaßnahmen
+    * Ghostery
+    * Einstellungen im Browser -> einstellungen im browser evtl. vor plugins, da universell und (fast) immer machbar?
+        * Cookies nur Session
+        * Cookies von Drittanbietern
+    * AdBlockPlus
+*  panopticlick https://panopticlick.eff.org/
+* Google
+    * Suchverlauf -> Lebensverlauf
+    * Personalisierte Suchergebnisse -> Information Bubble
+    * duck duck go, ixquick, ecosia
+* Pseudonymität
+    * überall gleicher Nickname
+    * Realnamen
+    * bewusste Entscheidungen
+    * auch bei Emailadressen möglich: 10minute-Mail, mailinator
+* Passwortsicherheit
+    * gleiches Passwort
+    * sichere Passwörter
+    * Man kann sich fragen ob durch Punkt und Komma ein Passwort sicherer wird!
+* Backup-Thema: Tor
+
+Soziale Netzwerke:
+* Wer ist in welchem soz. Netzwerk?
+    * Facebook
+    * SchlülerVZ
+    * SchülerCC
+    * weitere?
+* Kinderbook -> das Internet vergisst nichts!
+* Geschäftsmodelleraten:
+    * Karstadt, Amazon, Ebay, $most_voted_evil_network
+* Was habt ihr von Facebook?
+* Womit verdient Facebook Geld? -> c't Artikel
+    * durchschnitlich 1€ pro Profil
+    * Gewinn für Poweruser-Profil?
+    * Facebook aus Sicht eines Werbe-Treibenden
+    * 82% Werbeeinnahmen (besonders: zielgerichtete)
+    * 30% aller "Facebook-Käufe" (eigene Währung)
+* Facepalm oder http://www.touchgraph.com/facebook
+* Datenschutzeinstellungen von Facebook
+    * Demo ;)
+    * Facebook weiß trotzdem alles (Schutz vor Freunden/Bekannten, aber nicht vor der Organisation)
+* Identitätsdiebstahl:
+    * Passwortsicherheit: http://howsecureismypassword.net/
+    * mit wem redet man? (Hund Comic?)
+    * Gemeinsam überlegen, wie man das machen würde
+* Alternativen:
+    * zweckgebundene: Jabber, Flickr, Email
+    * Diaspora
+
+Datenschutz:
+* Datenschutz
+    * Was ist das und wieso braucht man das?
+    * Wem gegenüber? -> anderen Menschen (Eltern, Lehrer, Freunde), Unternehmen, Staat
+    * Gesetz: "Private Daten dürfen nicht erhoben werden.", "Zustimmung des Nutzers" -> Frage: Auf welcher Grundlage geschieht das?
+* Frage: Für wieviel Geld würdet ihr eure Daten verkaufen? (+ JIM Studie)
+* Was auf Facebook posten?
+    * .-> Schüler fragen
+    * "Roadkill" von Entertainment for the Braindead ist ein cooles Album
+    * Jan Müller geht am Donnerstag, den 07.06.2012 zum Poetry Slam in der Scheune
+    * Ich bin heut' echt gut drauf! -> je nach Entwicklungsgrad: Ich bin heut' echt druff! (evangelische Schule mit Bibelkreis ;))
+    * Ute Meyer war mit Carolin Worms und Frederik Ulm am Samstag abend im Schillergarten Fußball gucken (und ist danach mit Michael Schulz nach Hause gefahren).
+    * Meine Lehrerin ist dumm!
+    * http://www.weknowwhatyouredoing.com/
+    * Fazit
+* Rückbezug: Das Internet vergisst nichts!
+* Schufa und Facebook
+* Metadaten -> digger -> Slides :-)
+* Datenschutz Selbstbestimmung
+    * Daten anderer:
+        * Bilder taggen
+        * Emailadressen importieren
+        * Angeben, mit wem man etwas unternimmt
+    * Eigenschutz:
+        * Moderation
+        * Freunde auf Fehlverhalten hinweisen
+        * Nicht jeden Scheiß posten (Stellt euch vor, es würde jemand eine Statistik daraus machen ;-))
+
+Handout:
+* Schäubles Fingerabdruck
+* Firefox
+    * Ghostery
+    * AdBlockPlus
+    * Einstellungen
+* Google Alternativen
+* Facebook Alternativen
+* ein verantworungsvoller Umgang mit dem Internet beinhaltet:
+
+TODO BIS SAMSTAG
+
+Beide:
+
+Marius:
+* Kindernet-Materialien ausdrucken
+* Kinderbook ausdrucken
+* Cookie zeigen Website
+* Minimal-Slides
+    * "Überschriften"
+    * auflockernde Bilder (Facebook Schweine https://github.com/c3d2/informatiklehrertagung/blob/master/img/business_pigs.jpg)
+
+Stephan:
+* Kindernet-Materialien zusammenstellen
+* Digger Slides bzw Ausschnitte einbringen
+
+vorher im Browser öffnen:
+* Panopticlick
+* collusion
+* Firefox Einstellungen
+* http://www.touchgraph.com/facebook
+* http://howsecureismypassword.net/
+
+Ideen für "Selbsttest": 
+* 
+
