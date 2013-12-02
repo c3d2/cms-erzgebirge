@@ -90,6 +90,37 @@
 \section{Grundlagen des Internets}
 
 \begin{frame}
+    \frametitle{Wie kommunizieren wir im Internet?}
+    \begin{center}
+      \includegraphics[width=7cm]{img/direkt.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Wie kommunizieren wir im Internet?}
+    \begin{center}
+      \includegraphics[height=5cm]{img/c-s.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Zwischenstationen}
+    \begin{center}
+      \includegraphics[height=5cm]{img/mtr.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Grundlagen des Internets}
+	\begin{center}
+		\begin{itemize}
+			\item<1-> Alle Internetteilnehmer haben eindeutige IP Adresse
+			\item<2-> DNS → Telefonbuch für das Internet
+		\end{itemize}
+	\end{center}
+\end{frame}
+
+\begin{frame}
   \frametitle{Grundlagen des Internets}
   \begin{figure}
     \includegraphics[height=0.7\textheight]{img/internet_map.jpg}
@@ -97,55 +128,104 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Grundlagen des Internets}
+  \frametitle{Datenschutz}
+
   \begin{center} \Large
-    Praxis: Internetgrundlagen
+   Das Internet vergisst nichts!
   \end{center}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Grundlagen des Internets}
-  \begin{center} \Large
-  DNS
-  \end{center}
+  \frametitle{Vor wem kann man sich schützen wollen?}
+ \begin{itemize}
+	\item <2-> Staaten und Geheimdienste
+	\item <3-> Firmen und Dienstanbieter
+ 	\item <4-> Lehrer, Eltern, Freunde, Böse Menschen
+ \end{itemize} 
+  %FIXME \onslide<5> \includegraphics[height=.4\textheight]{img/FIXME
+\end{frame}
+
+\section{-gegenüber dem Staat}
+\subsection{}
+
+\begin{frame}
+    \frametitle{Bundespräsident Gauck zur NSA-Überwachung}
+    \begin{center}\texttt{
+      „Wir wissen z.B., dass es nicht so ist, wie bei der Stasi und dem KGB, dass es dicke Aktenbände gibt, wo unsere Gesprächsinhalte alle aufgeschrieben und schön abgeheftet sind. Das ist es nicht.“}
+      \end{center}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Gliederung}
+    \frametitle{Stasi vs. NSA}
+    \includegraphics[height=0.7\textheight]{img/akten1.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Stasi vs. NSA}
+    \includegraphics[height=0.7\textheight]{img/akten2.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Verschlüsselung}
+  \begin{center} \Large
+  Verschlüsselung\\
+  \onslide<2->{… eigenes Thema}
   \begin{itemize}
-    \item Vorteile des Internets:
+  	\item <3-> SSL \& TLS
+	\item <3-> Ende zu Ende (GPG)
+  \end{itemize}
+  \end{center}
+\end{frame}
+
+\section{-gegenüber Firmen}
+\subsection{}
+
+\begin{frame}
+  \frametitle{Datenschutz}
+
+  \begin{center} \Large
+   Für wieviel Geld würdet ihr eure (Profil-)Daten verkaufen?
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Geschäftsmodelle}
+  \begin{itemize}
+    \item Womit verdienen folgende Firmen ihr Geld?
       \begin{itemize}
-        \item Soziale Netzwerke
-        \item Datenschutz
+        \item<2-> Karstadt
+        \item<3-> Amazon
+        \item<4-> Ebay
+        \item<5-> Facebook
+      \end{itemize}
+      \onslide<6-> Werbung verkauft sich personalisiert besser -> Personalisieren durch Tracking
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Einleitung}
+  \begin{figure}
+    \includegraphics[height=0.7\textheight]{img/business_pigs.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Beispiel: Soziale Netzwerke}
+
+  \begin{itemize}
+    \item Was haben soziale Netzwerke von euch?\\(am Bsp. von Facebook)
+      \begin{itemize}
+        \item<2-> 82\% Einnahmen aus Werbung
+        \item<3-> 30\% Anteil an "`Facebook-Einkäufen"'
+        \item<4-> durchschnittlich 1€/Profil
+        \item<5-> "`Poweruser"'-Profile deutlich mehr
+        \item<6-> => Mehr Werbegewinn durch personalisierte Werbung
       \end{itemize}
   \end{itemize}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Grundlagen des Internets}
-  \begin{center} \Large
-  Abhören von Netzwerkverkehr
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Grundlagen des Internets}
-  \begin{center} \Large
-  Verschlüsselung
-  \end{center}
-\end{frame}
-
-\section{Verfolgung im Internet}
-
-\begin{frame}
-  \frametitle{Verfolgung im Internet}
-  \begin{center} \Large
-  Wer?
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Verfolgung im Internet}
+  \frametitle{Möglichkeiten der Dienstanbieter}
   \begin{itemize}
     \item<1-> Wie?
       \begin{itemize}
@@ -162,8 +242,8 @@
   \begin{itemize}
     \item<1-> Gegenmaßnahmen 
       \begin{itemize}
-        \item<2-> Ghostery
-        \item<3-> Einstellungen im Browser
+        \item<2-> Einstellungen im Browser
+        \item<3-> Ghostery
         \item<4-> Adblock
       \end{itemize}
   \end{itemize}
@@ -176,43 +256,14 @@
   \end{center}
 \end{frame}
 
+%FIXME Folie mit Tor Browser
+
 \begin{frame}
   \frametitle{Personalisiertes Web}
   \begin{center} \Large
     Suchmaschinen
   \end{center}
 \end{frame}
-
-\begin{frame}
-  \frametitle{Personalisiertes Web}
-  \begin{center} \Large
-     Pseudonymität
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Personalisiertes Web}
-  \begin{itemize}
-    \item Passwortsicherheit 
-      \begin{itemize}
-        \item (nCuAj.§Tsm!f
-        \item IchLiebeDich
-        \item .§)=")=`
-        \item 123456
-        \item alkmgfksjr
-        \item Mks?o/.u,ePsw!
-      \end{itemize}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Personalisiertes Web}
-  \begin{center} \Large
-     http://howsecureismypassword.net/
-  \end{center}
-\end{frame}
-
-\section{Soziale Netzwerke}
 
 \begin{frame}
   \frametitle{Soziale Netzwerke}
@@ -237,35 +288,6 @@
   \frametitle{Soziale Netzwerke}
 
   \begin{center} \Large
-    Praxis: Soziale Netzwerke 
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Soziale Netzwerke}
-
-  \begin{itemize}
-    \item Womit verdienen folgende Firmen ihr Geld?
-      \begin{itemize}
-        \item<2-> Karstadt
-        \item<3-> Amazon
-        \item<4-> Ebay
-        \item<5-> Facebook
-      \end{itemize}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Einleitung}
-  \begin{figure}
-    \includegraphics[height=0.7\textheight]{img/business_pigs.jpg}
-  \end{figure}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Soziale Netzwerke}
-
-  \begin{center} \Large
      Was bieten soziale Netzwerke?
   \end{center}
 \end{frame}
@@ -273,28 +295,9 @@
 \begin{frame}
   \frametitle{Soziale Netzwerke}
 
-  \begin{itemize}
-    \item Was haben soziale Netzwerke von euch?\\(am Bsp. von Facebook)
-      \begin{itemize}
-        \item<2-> 82\% Einnahmen aus Werbung
-        \item<3-> 30\% Anteil an "`Facebook-Einkäufen"'
-        \item<4-> durchschnittlich 1€/Profil
-        \item<5-> "`Poweruser"'-Profile deutlich mehr
-        \item<6-> => Mehr Werbegewinn durch personalisierte Werbung
-      \end{itemize}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Soziale Netzwerke}
-
-  \begin{itemize}
-    \item (Weitere) Probleme
-      \begin{itemize}
-        \item Datenschutz
-        \item Identitätsdiebstahl
-      \end{itemize}
-  \end{itemize}
+  \begin{center} \Large
+   Alternativen zu Facebook und co.
+  \end{center}
 \end{frame}
 
 \begin{frame}
@@ -303,6 +306,44 @@
   \begin{center} \Large
     Datenschutz: Einstellungen 
   \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Soziale Netzwerke}
+  \begin{center} \Large
+     Pseudonymität
+  \end{center}
+\end{frame}
+
+\section{-gegenüber anderen Menschen}
+\subsection{}
+
+\begin{frame}
+  \frametitle{Soziale Netzwerke}
+
+  \begin{itemize}
+    \item Probleme
+      \begin{itemize}
+        \item Identitätsdiebstahl
+	\begin{itemize}
+		\item Profilklau
+		\item Kopie des Profils
+	\end{itemize}
+        \item Schutz vor "Neugierigen"
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Passwortsicherheit}
+  \begin{itemize}
+    \item (nCuAj.§Tsm!f
+    \item IchLiebeDich
+    \item .§)=")=`
+    \item 123456
+    \item alkmgfksjr
+    \item Mks?o/.u,ePsw!
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -323,47 +364,6 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Soziale Netzwerke}
-
-  \begin{center} \Large
-   Alternativen zu Facebook und co. 
-  \end{center}
-\end{frame}
-
-\section{Digitaler Selbstschutz}
-
-\begin{frame}
-  \frametitle{Digitaler Selbstschutz}
-
-  \begin{center} \Large
-   Was ist das und wieso braucht man das? 
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Digitaler Selbstschutz}
-
-  \begin{itemize}
-    \item Wem gegenüber?
-      \begin{itemize}
-        \item<2-> Eltern
-        \item<3-> Lehrern
-        \item<4-> Freunden
-        \item<5-> Unternehmen / Organisationen
-        \item<6-> Staat
-      \end{itemize}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Datenschutz}
-
-  \begin{center} \Large
-   Für wieviel Geld würdet ihr eure (Profil-)Daten verkaufen?
-  \end{center}
-\end{frame}
-
-\begin{frame}
   \frametitle{Datenschutz}
 
   \begin{itemize}
@@ -376,38 +376,6 @@
         \item<6-> Meine Lehrerin ist voll doof!
       \end{itemize}
   \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Datenschutz}
-
-  \begin{center} \Large
-   http://www.weknowwhatyouredoing.com/
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Datenschutz}
-
-  \begin{center} \Large
-   Das Internet vergisst nichts!
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Datenschutz}
-
-  \begin{center} \Large
-   Beispiel aus der realen Welt:\\ Schufa und Facebook
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Datenschutz}
-
-  \begin{center} \Large
-   diggr
-  \end{center}
 \end{frame}
 
 \begin{frame}
@@ -436,4 +404,15 @@
   \end{itemize}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Diskussion}
+  \begin{center}
+    {\Large Diskussion}\\
+    \vspace{5mm} 
+    \href{https://github.com/c3d2/cms-nsa}{Folien}: \href{https://creativecommons.org/licenses/by-sa/4.0/}{\cc{by-sa}} Chaos Computer Club Dresden \\
+    \vspace{4mm}
+    https://c3d2.de
+    Kontakt: schule@c3d2.de
+  \end{center}
+\end{frame}
 \end{document}
